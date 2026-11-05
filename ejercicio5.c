@@ -22,13 +22,13 @@ void main ()
       printf (" 3 - Multiplicacion\n");
       printf (" 4 - Division\n");
       printf ("Elige:");
-      scanf ("%i",&elec);
+      scanf ("%i", &elec);
     }
     while (elec < 1 || elec > 4);
 printf ("dame la primera cifra:");
-  scanf ("%f",&n1);
+  scanf ("%f", &n1);
   printf ("dame la segunda cifra:");
-  scanf ("%f",&n2);
+  scanf ("%f", &n2);
   switch(elec)
     {
       case 1:
@@ -36,10 +36,13 @@ printf ("dame la primera cifra:");
       break;
       case 2:
       res=resta(n1,n2);
+      break;
       case 3:
       res=mult(n1,n2);
+      break;
       case 4:
       res=div(n1,n2);
+      break;
       default:
       break;
     }
