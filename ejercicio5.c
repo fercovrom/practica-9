@@ -23,7 +23,8 @@ void main ()
       printf (" 4 - Division\n");
       printf ("Elige:");
       scanf ("%i",&elec);
-    }while (elec < 1 || elec > 4);
+    }
+    while (elec < 1 || elec > 4);
 printf ("dame la primera cifra:");
   scanf ("%f",&n1);
   printf ("dame la segunda cifra:");
@@ -47,25 +48,25 @@ printf("El resultado de la operacion es: %f\n", res);
   float suma(float num1, float num2)
 {
   float res;
-  res=num1+num2;
+  res=num1 + num2;
   return res;
 }
 float resta(float num1, float num2)
   {
   float res;
-  res=num1-num2;
+  res=num1 - num2;
   return res;
 }
 float mult(float num1, float num2)
   {
   float res;
-  res=num1*num2;
+  res=num1 * num2;
   return res;
 }
 float div(float num1, float num2)
   {
   float res;
-  res=num1/num2;
+  res=num1 / num2;
   return res;
 }
 
