@@ -11,7 +11,8 @@ float div(float num1, float num2);
 
 void main ()
 {
-  int elec=0,rest;
+  int elec=0;
+  float n1,n2,res=0;
 
   do
     {
@@ -30,14 +31,14 @@ printf ("dame la primera cifra:");
   switch(elec)
     {
       case 1;
-      rest=suma(n1,n2);
+      res=suma(n1,n2);
       break;
       case 2;
-      rest=resta(n1,n2);
+      res=resta(n1,n2);
       case 3;
-      rest=mult(n1,n2);
+      res=mult(n1,n2);
       case 4;
-      rest=div(n1,n2);
+      res=div(n1,n2);
       default:
       break;
     }
