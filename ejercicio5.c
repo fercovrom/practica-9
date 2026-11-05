@@ -30,18 +30,20 @@ printf ("dame la primera cifra:");
   scanf ("%f",&n2);
   switch(elec)
     {
-      case 1;
+      case 1:
       res=suma(n1,n2);
       break;
-      case 2;
+      case 2:
       res=resta(n1,n2);
-      case 3;
+      case 3:
       res=mult(n1,n2);
-      case 4;
+      case 4:
       res=div(n1,n2);
       default:
       break;
     }
+printf("El resultado de la operacion es: %f\n", res);
+}
   float suma(float num1, float num2)
 {
   float res;
@@ -68,4 +70,4 @@ float div(float num1, float num2)
 }
 
   
-}
+
